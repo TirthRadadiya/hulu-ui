@@ -27,7 +27,10 @@ const Results = ({ results }) => {
     <div className="my-10 px-5 sm:grid md:grid-cols-2 lg:grid-cols-4 3xl:flex flex-wrap justify-center">
       {results.map((result) => {
         return (
-          <div className="group cursor-pointer transition-all duration-200 ease-in-out sm:hover:scale-[1.05] sm:z-50 p-2">
+          <div
+            className="group cursor-pointer transition-all duration-200 ease-in-out sm:hover:scale-[1.05] sm:z-50 p-2"
+            key={result.id}
+          >
             <Image
               layout="responsive"
               src={
