@@ -1,11 +1,7 @@
-import Thumbnail from "./Thumbnail";
 import Image from "next/image";
 import { ThumbUpIcon } from "@heroicons/react/outline";
 import { useState, useEffect } from "react";
 
-{
-  /* <Thumbnail key={result.id} result={result} />; */
-}
 const Results = ({ results }) => {
   const [loading, setLoading] = useState(false);
 
