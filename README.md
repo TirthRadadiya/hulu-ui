@@ -35,8 +35,9 @@ hulu-ui/
 ├── package.json   # Project dependencies and scripts
 ├── README.md      # Project documentation
 └── tsconfig.json  # TypeScript configuration
+```
 
----
+
 
 ## 🛠️ Installation & Setup
 
